@@ -1,0 +1,75 @@
+{% extends "template.html" %}
+{% block content %}
+
+    <div class="container animated fadeIn" id="main">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <br>
+                    </div>
+                </div>
+
+
+                <div class="col s12 m6 z-depth-2" id="team1" style=" border: #01579b">
+                    <div>
+                        <div class="center">
+                            <h5 style="font-weight: 200;"> Vendor Notification Center</h5>
+
+                            <div class="center">
+                                   <a class="center"> <i class="material-icons large thin blue-text center">flight_landed</i></a>
+                                </div>
+
+                            <form action="/" method="post">
+
+                                <br>
+                                <br>
+                                <br>
+                                <div class="input-field">
+                                    <textarea id="address" class="materialize-textarea" name="address"></textarea>
+                                    <label for="address">Address</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="email" type="email" class="validate"
+                                           name="email" placeholder="Email">
+                                </div>
+                                <br>
+
+                                <div>
+                                    <p class="range-field">
+                                        <input type="range" id="footfall" min="0" max="100" name="footfall"/>
+                                        <label for="footfall">Footfall</label>
+
+                                    </p>
+                                </div>
+                                <br>
+
+                                <div class="row center">
+                                    <button class="btn-flat waves-effect waves-light blue darken-1 white-text"
+                                            type="submit"
+                                            >Send
+                                        <i class="mdi-content-send right"></i>
+                                    </button>
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <br>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}

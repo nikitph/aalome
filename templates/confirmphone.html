@@ -1,0 +1,54 @@
+{% extends "template.html" %}
+{% block content %}
+
+    <div class="container animated fadeIn" id="main">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <br>
+                    </div>
+                </div>
+
+
+                <div class="col s12 m6 z-depth-2" id="team1" style=" border: #01579b">
+                    <div class="icon-block">
+                        <div class="center">
+                            <h5 style="font-weight: 200;"> Vendor Phone Verification</h5>
+
+                            <form action="/confirmphone" method="post">
+                                <div class="input-field center">
+                                    <input placeholder="{{ message }}" id="phone" type="number" class="validate" name="phone">
+                                </div>
+
+
+
+                                <div class="row center">
+                                    <button class="btn-flat waves-effect waves-light blue darken-1 white-text"
+                                            type="submit"
+                                            >Send
+                                        <i class="mdi-content-send right"></i>
+                                    </button>
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <br>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
