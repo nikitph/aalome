@@ -110,5 +110,10 @@ def subconfirmphone_post():
         return render_template('subconfirmphone.html', message="Incorrect! Please try again")
 
 
+@app.route('/pre', methods=['GET'])
+def pre_get():
+    return render_template('pre.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)

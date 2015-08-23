@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://gentle-hollows-8013.herokuapp.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script src="materialize.min.js"></script>
+    
+    
+
+
+<style>
+    #team1 {
+        border-radius: 10px 10px;
+        border-width: 5px;
+        border-color: #000000;
+        padding: 20px;
+        background: white;
+    }
+
+     .team1 {
+        border-radius: 10px 10px;
+        border-width: 5px;
+        border-color: #000000;
+        padding: 20px;
+        background: white;
+    }
+
+    .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    .h5 {
+        font-weight: 200;
+    }
+
+    .col { padding: 0}
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: orange;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+       
+
+    @-webkit-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fadeIn {
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+    }
+
+    @-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+
+
+</style><style>
+    html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        font-weight: 300;
+}
+
+    h1 {
+        font-weight:200;
+	}
+</style></head>
+
+
+
+
+
+
+<body>
+
+
+<div class="section no-pad-bot" id="banner">
+    <div class="container">
+        <a href="saved_resource.html"><h1 class="header center blue-text animated fadeIn">AaloMe<i class="material-icons medium thin green-text">nature_people</i></h1></a>
+        <h6 class="header center black-text" style="font-style: italic; font-weight: 200">Easing your access</h6>
+    </div>
+</div>
+
+
+
+    <div class="container animated fadeIn" id="main">
+        <div class="section">
+
+            <div class="row animated fadeInRight" style="padding: 0">
+                <div class="col s12 m2 green lighten-4 hvr-sweep-to-right" style="height: 200px">
+                    <div class="icon-block">
+                        <h2 class="center red-text"><i class="material-icons medium">local_cafe</i></h2>
+                        <h5 class="center" style="font-weight: 200;">You love tea</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m2 orange lighten-4 hvr-sweep-to-right" style="height: 200px">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="material-icons medium">local_dining</i></h2>
+                        <h5 class="center" style="font-weight: 200;">You only drink it here</h5>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m2 hvr-sweep-to-right" style="height: 200px;background: #c4d455">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="material-icons medium">alarm</i></h2>
+                        <h5 class="center" style="font-weight: 200;">7:30 Am. Craving hits</h5>
+
+                    </div>
+                </div>
+
+                 <div class="col s12 m2 hvr-sweep-to-right" style="height: 200px;background: gainsboro;">
+                        <h2 class="center white-text"><i class="material-icons medium">directions_run</i></h2>
+                        <h5 class="center" style="font-weight: 200;">You run to the hawker</h5>
+
+                </div>
+
+                 <div class="col s12 m2 hvr-sweep-to-right" style="height: 200px;background: rosybrown">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="material-icons medium">thumb_down</i></h2>
+                        <h5 class="center" style="font-weight: 200;">But alas he's not there</h5>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m2 hvr-sweep-to-right" style="height: 200px;background: orange;:hover">
+                    <div class="icon-block">
+                        <h5 class="center" style="font-weight: 200;">You wait for 1 hr and then come back with a frown and w/o tea</h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row" style="padding: 0">
+                                <div class="col s12 m4 hvr-sweep-to-right" style="height: 200px;">
+
+                                        <h5 class="center" style="font-weight: 200;">This is where AaloMe comes in. AaloMe allows you to look up your "mobile" vendor's
+                                        availability online or via SMS whichever you prefer. So no uncertainty/wasted trips.
+                                        </h5>
+                                    </div>
+
+                 <div class="col s12 m2 green lighten-4 hvr-sweep-to-right" style="height: 200px">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="material-icons medium">settings_cell</i></h2>
+                        <h5 class="center" style="font-weight: 200;">Just look up</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m2 orange lighten-4 hvr-sweep-to-right" style="height: 200px">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="material-icons medium">airline_seat_recline_extra</i></h2>
+                        <h5 class="center" style="font-weight: 200;">relax and go</h5>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m2 hvr-sweep-to-right" style="height: 200px;background: #c4d455">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="material-icons medium">mood</i></h2>
+                        <h5 class="center" style="font-weight: 200;">Enjoy</h5>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m2 hvr-sweep-to-right" style="height: 200px;background: white">
+                    <div class="icon-block">
+                        <a href="https://gentle-hollows-8013.herokuapp.com/vendsearch"><h2 class="center green-text"><i class="material-icons medium">arrow_forward</i></h2></a>
+                        <h5 class="center" style="font-weight: 200;">Get Started</h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="hiddendiv common"></div></body></html>
